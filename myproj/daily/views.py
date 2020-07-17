@@ -16,7 +16,7 @@ def form(request):
 
     if(request.method == "POST"):
 
-        if(request.POST["name"] == "taiseiyo"):
+        if(request.POST["name"] == "taiseiyo" and request.POST["name"] == "FGxG9wei"):
             template = loader.get_template('daily/index.html')
             return HttpResponse(template.render(None, request))
 
