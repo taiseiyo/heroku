@@ -11,5 +11,6 @@ urlpatterns = [
     #     views.index, name='taiseiyo'),
 
     path("", views.index, name="index"),
+    path("form", views.index, name="form"),
     path("taiseiyo/", views.taiseiyo, name="taiseiyo"),  # 追記
 ]
