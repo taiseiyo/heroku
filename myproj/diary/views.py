@@ -14,7 +14,8 @@ class DiaryView(TemplateView):
         self.params = {
             "title": "Welcome to Diary Application Form",
             "message": "Input your data",
-            "form": DailyForm()
+            "form": DailyForm(),
+            "choice": None
         }
 
     def get(self, request):
