@@ -17,7 +17,7 @@ class DiaryView(TemplateView):
             "form": DailyForm()
         }
 
-    def form(self, request):
+    def post(self, request):
 
         if(request.method == "POST"):
 
@@ -27,10 +27,11 @@ class DiaryView(TemplateView):
 
         return render(request, "diary/taisei/form.html", self.params)
 
-    def index(self, request):
-        template = loader.get_template('diary/taisei/index.html')
-        return HttpResponse(template.render(None, request))
+    # def index(self, request):
+    #     template = loader.get_template('diary/taisei/index.html')
+    #     return HttpResponse(template.render(None, request))
 
-    def taiseiyo(self, request):  # 新しくnew関数を追記
-        template_name = "diary/taisei/new.html"
-        return render(request, template_name)
+
+def taiseiyo(self, request):  # 新しくnew関数を追記
+    template_name = "diary/taisei/new.html"
+    return render(request, template_name)
