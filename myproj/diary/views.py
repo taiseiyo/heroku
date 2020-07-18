@@ -9,7 +9,7 @@ from .forms import DailyForm
 
 def form(request):
     params = {
-        "titie": "日記",
+        "titie": "Welcome to Diary Application Form",
         "message": "Input your data",
         "form": DailyForm()
     }
@@ -17,14 +17,14 @@ def form(request):
     if(request.method == "POST"):
 
         if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "FGxG9wei"):
-            template = loader.get_template('daily/taisei/index.html')
+            template = loader.get_template('diary/taisei/index.html')
             return HttpResponse(template.render(None, request))
 
-    return render(request, "daily/taisei/form.html", params)
+    return render(request, "diary/taisei/form.html", params)
 
 
 def index(request):
-    template = loader.get_template('daily/taisei/index.html')
+    template = loader.get_template('diary/taisei/index.html')
     return HttpResponse(template.render(None, request))
 
 
