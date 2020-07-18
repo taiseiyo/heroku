@@ -3,8 +3,8 @@ from django import forms
 
 class DailyForm(forms.Form):
 
-    usr_data = [("one", "taiseiyo"),
-                ("two", "syasin")]
+    usr_data = [("taiseiyo", "taiseiyo"),
+                ("syasin", "syasin")]
 
     choice = forms.ChoiceField(label="user name", choices=usr_data)
 
