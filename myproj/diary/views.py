@@ -17,13 +17,14 @@ class DiaryView(TemplateView):
             "form": DailyForm()
         }
 
+    def get(self, request):
+        return render(request, "diary/taisei/form.html", self.params)
+
     def post(self, request):
 
-        if(request.method == "POST"):
-
-            if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "FGxG9wei"):
-                template = loader.get_template('diary/taisei/index.html')
-                return HttpResponse(template.render(None, request))
+        if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "FGxG9wei"):
+            template = loader.get_template('diary/taisei/index.html')
+            return HttpResponse(template.render(None, request))
 
         return render(request, "diary/taisei/form.html", self.params)
 
