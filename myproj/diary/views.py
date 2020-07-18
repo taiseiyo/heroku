@@ -5,29 +5,32 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from .forms import DailyForm
+from django.views.generic import TemplateView
 
 
-def form(request):
-    params = {
-        "title": "Welcome to Diary Application Form",
-        "message": "Input your data",
-        "form": DailyForm()
-    }
+class DiaryView(TemplateView):
 
-    if(request.method == "POST"):
+    def __init__(self):
+        self.params = {
+            "title": "Welcome to Diary Application Form",
+            "message": "Input your data",
+            "form": DailyForm()
+        }
 
-        if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "FGxG9wei"):
-            template = loader.get_template('diary/taisei/index.html')
-            return HttpResponse(template.render(None, request))
+    def form(self, request):
 
-    return render(request, "diary/taisei/form.html", params)
+        if(request.method == "POST"):
 
+            if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "FGxG9wei"):
+                template = loader.get_template('diary/taisei/index.html')
+                return HttpResponse(template.render(None, request))
 
-def index(request):
-    template = loader.get_template('diary/taisei/index.html')
-    return HttpResponse(template.render(None, request))
+        return render(request, "diary/taisei/form.html", self.params)
 
+    def index(self, request):
+        template = loader.get_template('diary/taisei/index.html')
+        return HttpResponse(template.render(None, request))
 
-def taiseiyo(request):  # 新しくnew関数を追記
-    template_name = "diary/taisei/new.html"
-    return render(request, template_name)
+    def taiseiyo(self, request):  # 新しくnew関数を追記
+        template_name = "diary/taisei/new.html"
+        return render(request, template_name)
