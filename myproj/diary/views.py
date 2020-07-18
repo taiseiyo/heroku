@@ -9,7 +9,7 @@ from .forms import DailyForm
 
 def form(request):
     params = {
-        "titie": "Welcome to Diary Application Form",
+        "title": "Welcome to Diary Application Form",
         "message": "Input your data",
         "form": DailyForm()
     }
@@ -29,5 +29,5 @@ def index(request):
 
 
 def taiseiyo(request):  # 新しくnew関数を追記
-    template_name = "daily/taisei/new.html"
+    template_name = "diary/taisei/new.html"
     return render(request, template_name)
