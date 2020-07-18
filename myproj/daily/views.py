@@ -10,7 +10,7 @@ from .forms import DailyForm
 def form(request):
     params = {
         "titie": "日記",
-        "message": "your data",
+        "message": "Input your data",
         "form": DailyForm()
     }
 
