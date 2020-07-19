@@ -21,7 +21,7 @@ class DiaryView(TemplateView):
         return render(request, "diary/taisei/form.html", self.params)
 
     def post(self, request):
-        if(request.POST["choice"] == "taiseiyo" and request.POST["password"] == "FGxG9wei"):
+        if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "welcome"):
             template = loader.get_template('diary/taisei/index.html')
             return HttpResponse(template.render(None, request))
 
