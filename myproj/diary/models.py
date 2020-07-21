@@ -9,4 +9,4 @@ class ActiveUser(models.Model):
     mail = models.EmailField(max_length=40)
 
     def __str__(self):
-        return "Acutive user="+self.name+"mail address="+self.mail
+        return "Acutive user: "+self.name+" mail address: "+self.mail
