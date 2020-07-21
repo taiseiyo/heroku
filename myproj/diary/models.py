@@ -10,3 +10,6 @@ class ActiveUser(models.Model):
 
     def __str__(self):
         return "Acutive user: "+self.name+" mail address: "+self.mail
+
+    def save(self, *args, **kwargs):
+        super(ActiveUser, self).save(*args, **kwargs)
