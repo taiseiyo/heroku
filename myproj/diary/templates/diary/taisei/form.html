@@ -19,14 +19,15 @@
   <p class="h5 mt-4">{{message|safe}}</p>
   <form action="{% url 'form' %}" method="post">
     {% csrf_token %}
-    <h2 style="color:green;">Active User</h2>
-    <table>
+    <table>  
       {{form.as_p}}
       <tr><td></td><td>
 	  <input type="submit" class="btn-primary my-2" value="click">
       </td></tr>
       
-      {% for item in data %}
+      <h2 style="color:green;">Active User</h2>
+   
+    {% for item in data %}
       <tr>
 	<th>NAME</th>
 	<th>MAIL</th>
