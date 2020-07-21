@@ -13,5 +13,5 @@ class DailyForm(forms.Form):
                                attrs={"class": "form-control"}))
 
     password = forms.CharField(label="password",
-                               widget=forms.TextInput(
+                               widget=forms.PasswordInput(
                                    attrs={"class": "form-control"}))
