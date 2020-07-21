@@ -28,17 +28,19 @@
     
     <h2 style="color:green;">Active User</h2>
     
-    <table>
-    {% for item in data %}
+    <table class="table">
       <tr>
 	<th>NAME</th>
 	<th>MAIL</th>
       </tr>
+      
+      {% for item in data %}
       <tr>
 	<td>{{item.name}}</td>
 	<td>{{item.mail}}</td>
       </tr>
-      {% endfor %}  
+      {% endfor %}
+      
     </table>
     
   </form>
