@@ -24,9 +24,11 @@
       <tr><td></td><td>
 	  <input type="submit" class="btn-primary my-2" value="click">
       </td></tr>
-      
-      <h2 style="color:green;">Active User</h2>
-   
+    </table>
+    
+    <h2 style="color:green;">Active User</h2>
+    
+    <table>
     {% for item in data %}
       <tr>
 	<th>NAME</th>
@@ -36,8 +38,7 @@
 	<td>{{item.name}}</td>
 	<td>{{item.mail}}</td>
       </tr>
-      {% endfor %}
-      
+      {% endfor %}  
     </table>
     
   </form>
