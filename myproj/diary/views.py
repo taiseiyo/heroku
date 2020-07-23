@@ -13,7 +13,7 @@ from django.views.generic import TemplateView
 class DiaryView(TemplateView):
     def __init__(self):
         self.data = ActiveUser.objects.all()
-        ActiveUser.objects.all().delete()
+        # ActiveUser.objects.all().delete()
 
         self.params = {
             "title": "Welcome to Diary Application Form",
