@@ -2,12 +2,17 @@
 This program is a diary application using the django library
 
 ** Image
-[[./figure/image.png]]
+- Image of Form
+[[./figure/form.png]]
+
+- Image of Contents of diary
+[[./figure/diary.png]]
 
 ** usage
 Run the following command in your shell
 
 $ python manage.py runserver
+
 
 * django
 See the following URL for an overview of [[https://www.djangoproject.com/][django]]
