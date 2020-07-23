@@ -17,4 +17,5 @@ $ python manage.py runserver
 * django
 See the following URL for an overview of [[https://www.djangoproject.com/][django]]
 
-
+* heroku 
+Publish using heroku and the URL is [[https://taiseiyo.herokuapp.com/][taiseiyo の 1 日]]
