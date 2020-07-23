@@ -13,7 +13,7 @@ from django.views.generic import TemplateView
 class DiaryView(TemplateView):
     def __init__(self):
         self.data = ActiveUser.objects.all()
-        # ActiveUser.objects.all().delete()
+        ActiveUser.objects.all().delete()
 
         self.params = {
             "title": "Welcome to Diary Application Form",
@@ -45,9 +45,10 @@ class RegisterView(TemplateView):
         return render(request, "diary/taisei/create.html", self.params)
 
     def post(self, request):
+        print(len(self.data.values("name")))
         if(len(request.POST["name"]) > 0 and len(request.POST["mail"]) > 0):
             active_user = ActiveUser(
-                1 if len(self.data.values("name")) == 0 else len(self.data.values("name")), request.POST["name"], request.POST["mail"])
+                1 if len(self.data.values("name")) == 0 else len(self.data.values("name"))+1, request.POST["name"], request.POST["mail"])
             active_user.save()
             return redirect(to="form")
         return render(request, "diary/taisei/create.html", self.params)
