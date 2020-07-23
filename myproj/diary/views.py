@@ -45,7 +45,6 @@ class RegisterView(TemplateView):
         return render(request, "diary/taisei/create.html", self.params)
 
     def post(self, request):
-        print(len(self.data.values("name")))
         if(len(request.POST["name"]) > 0 and len(request.POST["mail"]) > 0):
             active_user = ActiveUser(
                 1 if len(self.data.values("name")) == 0 else len(self.data.values("name"))+1, request.POST["name"], request.POST["mail"])

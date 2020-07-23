@@ -1,0 +1,5 @@
+* Overview
+This program is a diary application using the django library
+
+* django
+See the following URL for an overview of [[https://www.djangoproject.com/][django]]
