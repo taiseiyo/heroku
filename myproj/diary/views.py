@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from django.shortcuts import redirect
-from .forms import DailyForm
+from .forms import DailyForm, RegisterForm
 from .models import ActiveUser
 from django.views.generic import TemplateView
 
@@ -13,6 +13,7 @@ from django.views.generic import TemplateView
 class DiaryView(TemplateView):
     def __init__(self):
         self.data = ActiveUser.objects.all()
+        # ActiveUser.objects.all().delete()
 
         self.params = {
             "title": "Welcome to Diary Application Form",
@@ -34,9 +35,9 @@ class DiaryView(TemplateView):
 class RegisterView(TemplateView):
     def __init__(self):
         self.data = ActiveUser.objects.all()
-
         self.params = {
             "title": "Register your data",
+            "form": RegisterForm(),
             "data": self.data
         }
 
@@ -44,13 +45,11 @@ class RegisterView(TemplateView):
         return render(request, "diary/taisei/create.html", self.params)
 
     def post(self, request):
-        name = request.POST["name"]
-        mail = request.POST["mail"]
-        # 空じゃない時の処理を書く
-        if(len(name) > 0 and len(mail) > 0):
-            active_user = ActiveUser(name, mail)
+        if(len(request.POST["name"]) > 0 and len(request.POST["mail"]) > 0):
+            active_user = ActiveUser(
+                1 if len(self.data.values("name")) == 0 else len(self.data.values("name")), request.POST["name"], request.POST["mail"])
             active_user.save()
-            return redirect(to="")
+            return redirect(to="form")
         return render(request, "diary/taisei/create.html", self.params)
 
 

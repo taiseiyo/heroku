@@ -16,3 +16,13 @@ class DailyForm(forms.Form):
     password = forms.CharField(label="password",
                                widget=forms.PasswordInput(
                                    attrs={"class": "form-control"}))
+
+
+class RegisterForm(forms.Form):
+    name = forms.CharField(label="name",
+                           widget=forms.TextInput(
+                               attrs={"class": "form-control"}))
+
+    mail = forms.EmailField(label="email",
+                            widget=forms.EmailInput(
+                                attrs={"class": "form-control"}))

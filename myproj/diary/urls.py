@@ -11,5 +11,5 @@ urlpatterns = [
     # path("", views.index, name="index"),
     path("", DiaryView.as_view(), name="form"),
     path("taiseiyo/", views.taiseiyo, name="taiseiyo"),  # 追記
-    path("create/", RegisterView.as_view().as_view(), name="form"),
+    path("create.html/", RegisterView.as_view(), name="create"),
 ]
