@@ -3,6 +3,8 @@ from django.db import models
 
 # Create your models here.
 
+# use DiaryView and RegisterView in views.py
+
 
 class ActiveUser(models.Model):
     name = models.CharField(max_length=20)
