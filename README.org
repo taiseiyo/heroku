@@ -1,5 +1,10 @@
 * Overview
 This program is a diary application using the django library
 
+** Image
+[[./figure/image.png]]
+
 * django
 See the following URL for an overview of [[https://www.djangoproject.com/][django]]
+
+
