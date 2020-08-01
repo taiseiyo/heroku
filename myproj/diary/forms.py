@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from django import forms
+from .models import ActiveUser
 
 
 class DailyForm(forms.Form):
@@ -26,3 +27,9 @@ class RegisterForm(forms.Form):
     mail = forms.EmailField(label="email",
                             widget=forms.EmailInput(
                                 attrs={"class": "form-control"}))
+
+
+class Re_RegisterForm(forms.ModelForm):
+    class Meta:
+        model = ActiveUser
+        fields = ["name", "mail"]

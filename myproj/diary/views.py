@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from django.shortcuts import redirect
-from .forms import DailyForm, RegisterForm
+from .forms import DailyForm, RegisterForm, Re_RegisterForm
 from .models import ActiveUser
 from django.views.generic import TemplateView
 
@@ -56,3 +56,19 @@ class RegisterView(TemplateView):
 def taiseiyo(request):  # 新しくnew関数を追記
     template_name = "diary/taisei/new.html"
     return render(request, template_name)
+
+
+def edit(request, num):
+    obj = ActiveUser.objects.get(id=num)
+    # obj = ActiveUser.objects.get(name=name)
+    if(request.method == "POST"):
+        re_register = Re_RegisterForm(request.POST, instance=obj)
+        re_register.save()
+        return redirect(to="form")
+    params = {
+        "title": "Change information",
+        "id": num,
+        # "name": name,
+        "form": Re_RegisterForm(instance=obj)
+    }
+    return render(request, "diary/taisei/edit.html", params)
