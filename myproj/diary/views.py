@@ -12,6 +12,7 @@ from django.views.generic import TemplateView
 
 class DiaryView(TemplateView):
     def __init__(self):
+        # レコード(テーブルに保管されるデータ)の取得
         self.data = ActiveUser.objects.all()
         # ActiveUser.objects.all().delete()
 
@@ -72,3 +73,17 @@ def edit(request, num):
         "form": Re_RegisterForm(instance=obj)
     }
     return render(request, "diary/taisei/edit.html", params)
+
+
+def delete(request, num):
+    active_user = ActiveUser.objects.get(id=num)
+    if(request.method == "POST"):
+        active_user.delete()
+        return redirect(to="form")
+    params = {
+        "title": "Delete information",
+        "id": num,
+        # "name": name,
+        "obj": active_user
+    }
+    return render(request, "diary/taisei/delete.html", params)
