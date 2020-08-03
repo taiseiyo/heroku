@@ -19,3 +19,33 @@ ul, ol {
     padding-bottom:0px;/*リスト下の余白*/
     padding-left:15px;/*リスト左の余白*/
 }
+
+.btn {
+    display:  inline-block;
+    color: #fff;
+    text-decoration:  none;
+    background-color: #2196F3;
+    border-radius: 5px;
+    position:  fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor:pointer;
+}
+
+.btn::before {
+    content:  '';
+    width: 20px;
+    height: 20px;
+    display:  block;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    transform: rotate(-45deg);
+    position:  absolute;
+    top: 10px;
+    bottom:  0;
+    left:  0;
+    right:  0;
+    margin:  auto;
+}
