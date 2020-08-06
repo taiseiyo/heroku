@@ -14,7 +14,7 @@ from django.views.generic import TemplateView
 class DiaryView(TemplateView):
     def __init__(self):
         # レコード(テーブルに保管されるデータ)の取得
-        self.data = ActiveUser.objects.all()
+        self.data = ActiveUser.objects.all().order_by("name", "mail")
         # ActiveUser.objects.all().delete()
 
         self.params = {
@@ -36,7 +36,7 @@ class DiaryView(TemplateView):
 
 class RegisterView(TemplateView):
     def __init__(self):
-        self.data = ActiveUser.objects.all()
+        self.data = ActiveUser.objects.all().order_by("name", "mail")
         self.params = {
             "title": "Register your data",
             "form": RegisterForm(),
