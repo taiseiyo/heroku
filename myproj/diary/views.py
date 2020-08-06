@@ -5,7 +5,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from django.shortcuts import redirect
-from .forms import DailyForm, RegisterForm, Re_RegisterForm
+from .forms import DailyForm, RegisterForm, \
+    Re_RegisterForm, RestrictForm
 from .models import ActiveUser
 from django.views.generic import TemplateView
 
@@ -83,7 +84,24 @@ def delete(request, num):
     params = {
         "title": "Delete information",
         "id": num,
-        # "name": name,
         "obj": active_user
     }
     return render(request, "diary/taisei/delete.html", params)
+
+
+def restrict(request, num):
+    active_user = ActiveUser.objects.get(id=num)
+    params = {
+        "title": "This operation is limited",
+        "message": "Enter password",
+        "id": num,
+        "form": RestrictForm(),
+        "obj": active_user
+    }
+
+    if(request.method == "POST"):
+        if(request.POST["password"] == "welcome"):
+            params["title"] = "Delete information"
+            return render(request, "diary/taisei/delete.html", params)
+
+    return render(request, "diary/taisei/restrict.html", params)
