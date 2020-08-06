@@ -100,7 +100,7 @@ def restrict(request, num):
     }
 
     if(request.method == "POST"):
-        if(request.POST["password"] == "welcome"):
+        if(request.POST["password"] == "FGxG9wei"):
             params["title"] = "Delete information"
             return render(request, "diary/taisei/delete.html", params)
 
