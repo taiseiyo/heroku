@@ -105,3 +105,11 @@ def restrict(request, num):
             return render(request, "diary/taisei/delete.html", params)
 
     return render(request, "diary/taisei/restrict.html", params)
+
+
+def index2(request):
+    return render(request, "diary/taisei/index2.html")
+
+
+def three_d(request):
+    return render(request, "diary/taisei/3d.html")
