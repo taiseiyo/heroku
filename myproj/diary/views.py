@@ -32,7 +32,7 @@ class DiaryView(TemplateView):
             template = loader.get_template('diary/taisei/index.html')
             return HttpResponse(template.render(None, request))
 
-        elif(request.POST["name"] == "affri" and request.POST["password"] == "welcome"):
+        elif(request.POST["name"] == "shop" and request.POST["password"] == "welcome"):
             template = loader.get_template('diary/taisei/affri.html')
             return HttpResponse(template.render(None, request))
 
