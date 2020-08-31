@@ -31,6 +31,11 @@ class DiaryView(TemplateView):
         if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "welcome"):
             template = loader.get_template('diary/taisei/index.html')
             return HttpResponse(template.render(None, request))
+
+        elif(request.POST["name"] == "affri" and request.POST["password"] == "welcome"):
+            template = loader.get_template('diary/taisei/affri.html')
+            return HttpResponse(template.render(None, request))
+
         return render(request, "diary/taisei/form.html", self.params)
 
 
@@ -55,7 +60,7 @@ class RegisterView(TemplateView):
         return render(request, "diary/taisei/create.html", self.params)
 
 
-def taiseiyo(request):  # 新しくnew関数を追記
+def taiseiyo(request):  # 新しく new 関数を追記
     template_name = "diary/taisei/new.html"
     return render(request, template_name)
 
