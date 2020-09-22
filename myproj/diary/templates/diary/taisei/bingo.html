@@ -48,11 +48,15 @@
 
   <script>
     document.getElementById("table2").onclick = function() {
-      let min = 1, max = 72;
-      let a = Math.floor( Math.random() * (max + 1 - min) ) + min;
-      console.log(a);
-      document.getElementById("id10").textContent = a;
-    }
+      count++
+      if(count==1){
+	startTimer();
+      }
+      else{
+	stopTimer();
+	count=0;
+      }
+    }    
   </script>
   
 </body>
