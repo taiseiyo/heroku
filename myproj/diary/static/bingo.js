@@ -32,4 +32,5 @@ function startTimer() {
 
 function stopTimer() {
   clearInterval(testTimer);
+  console.log(document.getElementById("id10").textContent);
 }
