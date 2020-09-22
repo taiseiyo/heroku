@@ -1,4 +1,4 @@
-let arr = Array(72)
+let arr = Array(1, 72)
   .fill()
   .map((_, i) => i);
 
