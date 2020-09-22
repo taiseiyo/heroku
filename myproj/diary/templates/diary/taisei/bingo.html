@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Bingo Master!!</title>
+  <link href="../../../static/bingo.css" rel="stylesheet"/>
+</head>
+
+
+<body class="back">
+  <h1 class="bingo">ビンゴカード(1~72)</h1> 
+  <table class="waku" border="3" width="400" height="400">
+    <tr>
+      <td align="center" class="suzi" id="id1"></td>
+      <td align="center" class="suzi" id="id2"></td>
+      <td align="center" class="suzi" id="id3"></td>
+    </tr>
+    
+    <tr>
+      <td align="center" class="suzi" id="id4"></td>
+      <td align="center" class="suzi" id="id5"></td>
+      <td align="center" class="suzi" id="id6"></td>
+    </tr>
+    
+    <tr>
+      <td align="center" class="suzi" id="id7"></td>
+      <td align="center" class="suzi" id="id8"></td>
+      <td align="center" class="suzi" id="id9"></td>
+    </tr>
+  </table>
+
+  <script type="text/javascript" src="../../../static/bingo.js"></script>
+  <script>
+    for(let i = 0; i < ids.length; i++) {
+      document.getElementById(ids[i]).textContent = arr[i]
+    } 
+  </script>
+
+  <h1 class="bingo2">数字結果</h1> 
+  
+  <table border="1" class="res" id="table2" width="400" height="400">
+    <tr>
+      <td align="center" class="suzi2" id="id10"></td>
+    </tr>
+  </table>
+
+  <script>
+    document.getElementById("table2").onclick = function() {
+      let min = 1, max = 72;
+      let a = Math.floor( Math.random() * (max + 1 - min) ) + min;
+      console.log(a);
+      document.getElementById("id10").textContent = a;
+    }
+  </script>
+  
+</body>
+
+</html>

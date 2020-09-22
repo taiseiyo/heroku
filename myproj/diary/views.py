@@ -18,7 +18,7 @@ class DiaryView(TemplateView):
         # ActiveUser.objects.all().delete()
 
         self.params = {
-            "title": "Welcome to Diary Application Form",
+            "title": "Welcome to My_Application Form",
             "message": "Input your data",
             "form": DailyForm(),
             "data": self.data
@@ -32,8 +32,8 @@ class DiaryView(TemplateView):
             template = loader.get_template('diary/taisei/index.html')
             return HttpResponse(template.render(None, request))
 
-        elif(request.POST["name"] == "shop" and request.POST["password"] == "welcome"):
-            template = loader.get_template('diary/taisei/affri.html')
+        elif(request.POST["name"] == "bingo" and request.POST["password"] == "welcome"):
+            template = loader.get_template('diary/taisei/bingo.html')
             return HttpResponse(template.render(None, request))
 
         return render(request, "diary/taisei/form.html", self.params)
