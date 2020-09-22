@@ -1,6 +1,6 @@
-let arr = Array(1, 72)
+let arr = Array(72)
   .fill()
-  .map((_, i) => i);
+  .map((_, i) => i + 1);
 
 let a = arr.length;
 
