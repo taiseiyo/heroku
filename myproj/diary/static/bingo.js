@@ -1,6 +1,10 @@
-let arr = Array(72)
-  .fill()
-  .map((_, i) => i + 1);
+let arr = new Array(72);
+let serial_num = 1; // 連番用
+
+for (let i = 0; i < arr.length; i++) {
+  arr[i] = serial_num;
+  serial_num++;
+}
 
 let a = arr.length;
 
