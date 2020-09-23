@@ -1,6 +1,6 @@
 let arr = new Array(72);
 let serial_num = 1; // 連番用
-let count = 0; //ループを止めるスイッチ用
+let flag = false; //ループを止めるスイッチ用
 
 for (let i = 0; i < arr.length; i++) {
   arr[i] = serial_num;

@@ -52,15 +52,22 @@
     
     <script>
       document.getElementById("table2").onclick = function() {
-      count++
-      if(count==1){
-	startTimer();
+	if(flag==true){
+	  flag=false;
+	}
+	else{
+	  flag=true;
+	}
+
+	
+	if(flag==true){
+	  startTimer();
+	}
+	else{
+	  stopTimer();
+	}
       }
-      else{
-	stopTimer();
-	count=0;
-      }
-    }
+      
     </script>
   </div>
   
