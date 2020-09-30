@@ -22,9 +22,9 @@ function slide_picture() {
   document.getElementById("mypic").src = pic[num];
   // const img = document.querySelector("#mypic");
   const img = document.getElementById("mypic");
-  img.animate([{opacity: "0.4"}, {opacity: "1"}], 3000);
+  img.animate([{opacity: "0.4"}, {opacity: "1"}], 4000);
 }
 
-setInterval(slide_picture, 3000);
+setInterval(slide_picture, 4000);
 
 // 即時関数作ってみる
