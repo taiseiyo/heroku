@@ -7,6 +7,7 @@ function scrollToDown() {
   scrollTo(0, h);
 }
 
+let num = -1;
 function slide_picture() {
   let pic = new Array(
     "../../../static/star.jpg",
