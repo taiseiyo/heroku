@@ -29,7 +29,7 @@ class DiaryView(TemplateView):
 
     def post(self, request):
         if(request.POST["name"] == "taiseiyo" and request.POST["password"] == "welcome"):
-            template = loader.get_template('diary/taisei/index.html')
+            template = loader.get_template('diary/taisei/diary.html')
             return HttpResponse(template.render(None, request))
 
         elif(request.POST["name"] == "bingo" and request.POST["password"] == "welcome"):
