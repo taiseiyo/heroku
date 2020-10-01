@@ -26,6 +26,21 @@ function display_suzi() {
   document.getElementById("id10").textContent = a;
 }
 
+let music;
+
+function startMusic() {
+  music = new Audio();
+  music.setAttribute("crossorigin", "anonymous");
+  music.crossOrigin = "anonymous";
+  music.muted = true;
+  music.src = "./shining_star.mp3";
+  music.play(); // 再生
+}
+
+function stopMusic() {
+  music.pause(); // 停止
+}
+
 function startTimer() {
   testTimer = setInterval("display_suzi()", 10);
 }
