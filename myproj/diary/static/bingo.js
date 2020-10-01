@@ -30,10 +30,8 @@ let music;
 
 function startMusic() {
   music = new Audio();
-  music.setAttribute("crossorigin", "anonymous");
-  music.crossOrigin = "anonymous";
-  music.muted = true;
-  music.src = "./shining_star.mp3";
+  music.src =
+    "https://raw.githubusercontent.com/taiseiyo/heroku/master/myproj/diary/static/shining_star.mp3";
   music.play(); // 再生
 }
 
@@ -41,11 +39,11 @@ function stopMusic() {
   music.pause(); // 停止
 }
 
-function startTimer() {
+function startBingo() {
   testTimer = setInterval("display_suzi()", 10);
 }
 
-function stopTimer() {
+function stopBingo() {
   clearInterval(testTimer);
   console.log(document.getElementById("id10").textContent);
 }
