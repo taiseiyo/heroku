@@ -31,7 +31,7 @@ let music;
 function startMusic() {
   music = new Audio();
   music.src =
-    "https://raw.githubusercontent.com/taiseiyo/heroku/master/myproj/diary/static/shining_star.mp3";
+    "https://raw.githubusercontent.com/taiseiyo/heroku/master/myproj/diary/static/music/shining_star.mp3";
   music.play(); // 再生
 }
 
