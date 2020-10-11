@@ -29,7 +29,7 @@ function slide_picture() {
 setInterval(slide_picture, 10000);
 
 let value = 0;
-let imgWidth = -780;
+let imgWidth = -750;
 let flag = true;
 function animation_background() {
   document.getElementById("skinBody").style.backgroundPosition = value + "px";
