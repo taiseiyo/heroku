@@ -82,7 +82,7 @@ ul, ol {
     transform: rotate(-225deg);
     position:  absolute;
     top: 0px;
-    bottom: 10px;
+    bottom: 10;
     left:  0;
     right:  0;
     margin:  auto;
