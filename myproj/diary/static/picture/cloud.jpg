@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="Nu8ZCpbFFQh9ZBzNT37qUF4XZ0Wk49dOihJDfF_mwZ8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<script src="/js/jquery-1.6.1.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/main.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-5183662823086298",
+          enable_page_level_ads: true
+     });
+</script>
+<link rel="stylesheet" href="/style.css">
+<meta name="description" content="ジーソザイは、イラスト素材・写真素材・デスクトップの背景画像など数点の画像素材を無料ダウンロード出来ます。" />
+<meta name="keywords" content="画像素材,写真素材,イラスト,壁紙,テクスチャ" />
+<link type="text/css" rel="stylesheet" href="/css/skitter.styles.css" />
+<style type="text/css">
+.box_skitter_large {
+	width:100%;
+	height:337px;
+	clear:both;
+}
+</style>
+		<script type="text/javascript" src="/js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.skitter.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/js/jquery.animate-colors-min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			    $('.box_skitter_large').skitter();
+				//$('.box_skitter_large').skitter({thumbs: true, label: fase});
+			});
+</script>
+<title>数点の画像素材　-　ジーソザイ</title>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43175418-4']);
+  _gaq.push(['_setDomainName', 'g-sozai.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<a href="/"><img style="width:50%;" src="/images/logo.png" alt="G素材" name="logo" id="logo" /></a>
+</div>
+<!--/header-->
+  <ul id="menu">
+    <li><a href="/">TOP PAGE</a></li>
+    <li><a href="https://koukaon.g-sozai.com/" target="_blank" rel="nofollow">効果音フリー素材</a></li>
+    <li><a href="https://iphone.g-sozai.com/" target="_blank" rel="nofollow">iPhone壁紙</a></li>
+    <li><a href="https://jukugo.g-sozai.com/">四字熟語</a></li>
+    <li><a href="https://meigen.g-sozai.com/">世界の名言集</a></li>
+    <li><a href="/whatsnew0/">更新履歴</a></li>
+    <li class="last"><a href="/about.html">利用規約</a></li>
+  </ul>
+
+
+  <ul id="menu">
+    <li><a href="/花 木/0/">植物の素材</a></li>
+    <li><a href="/山 海 空 雲 川/0/">自然の素材</a></li>
+    <li><a href="/布 液体/0/">質感の素材</a></li>
+    <li><a href="/春 夏 秋 冬/0/">季節の素材</a></li>
+    <li><a href="/赤色 青色 黄色 オレンジ色 白色 紫色/0/">色の素材</a></li>
+    <li><a href="/3D テクスチャ グラデーション/0/">3Dtxgr</a></li>
+    <li class="last"><a href="/絵画/0/">絵画の素材</a></li>
+  </ul>
+
+<br style="clear:both;">
+
+  <div id="contents">
+    <div id="wrap">
+      <div id="main">    <h1><span>画像など数点の素材</span></h1>
+無料画像が数百点 画像のジーソザイ<br>
+風景、動植物、絵画、乗り物、CG、イラスト等々、様々な画像を提供！<br>
+年賀状やカレンダー作成も出来ます。
+<div class="border_box">
+<div class="box_skitter box_skitter_large">
+<ul>
+              <li><a href="https://g-sozai.com/sozai/863.html"><img style="width:100%;" src="/data/g953_600.jpg" class="blindWidth" alt="3Dゼブラ柄" /></a>
+                <div class="label_text">
+                  <p>3Dゼブラ柄</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/843.html"><img style="width:100%;" src="/data/g933_600.jpg" class="cubeSpread" alt="重なりあう青色の球体" /></a>
+                <div class="label_text">
+                  <p>重なりあう青色の球体</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/831.html"><img style="width:100%;" src="/data/g920_600.jpg" class="upBars" alt="コンゴ民主共和国の国旗" /></a>
+                <div class="label_text">
+                  <p>コンゴ民主共和国の国旗</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/821.html"><img style="width:100%;" src="/data/g910_600.jpg" class="cubeStopRandom" alt="グルジアの国旗" /></a>
+                <div class="label_text">
+                  <p>グルジアの国旗</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/772.html"><img style="width:100%;" src="/data/g762_600.jpg" class="cubeSpread" alt="ゴッホ「夜のカフェテラス」" /></a>
+                <div class="label_text">
+                  <p>ゴッホ「夜のカフェテラス」</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/754.html"><img style="width:100%;" src="/data/g744_600.jpg" class="showBarsRandom" alt="タンポポの綿毛" /></a>
+                <div class="label_text">
+                  <p>タンポポの綿毛</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/753.html"><img style="width:100%;" src="/data/g743_600.jpg" class="swapBarsBack" alt="空の雲" /></a>
+                <div class="label_text">
+                  <p>空の雲</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/720.html"><img style="width:100%;" src="/data/Velazquez05_600.jpg" class="circlesInside" alt="ディエゴ・ベラスケス「ブレダの開城」" /></a>
+                <div class="label_text">
+                  <p>ディエゴ・ベラスケス「ブレダの開城」</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/517.html"><img style="width:100%;" src="/data/g520_600.jpg" class="cubeStop" alt="クロード・モネ　「クルーズの渓谷」" /></a>
+                <div class="label_text">
+                  <p>クロード・モネ　「クルーズの渓谷」</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/399.html"><img style="width:100%;" src="/data/g400_600.jpg" class="cubeHide" alt="クロード・モネ　「バジールとカミーユ （習作 「草上の昼食」）」" /></a>
+                <div class="label_text">
+                  <p>クロード・モネ　「バジールとカミーユ （習作 「草上の昼食」）」</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/286.html"><img style="width:100%;" src="/data/g0286_600.jpg" class="circlesInside" alt="雲のテクスチャ" /></a>
+                <div class="label_text">
+                  <p>雲のテクスチャ</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/220.html"><img style="width:100%;" src="/data/g0220_600.jpg" class="horizontal" alt="雲022" /></a>
+                <div class="label_text">
+                  <p>雲022</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/97.html"><img style="width:100%;" src="/data/g0098_600.jpg" class="swapBlocks" alt="白い紫陽花" /></a>
+                <div class="label_text">
+                  <p>白い紫陽花</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/60.html"><img style="width:100%;" src="/data/g0060_600.jpg" class="glassCube" alt="御嶽山001" /></a>
+                <div class="label_text">
+                  <p>御嶽山001</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/39.html"><img style="width:100%;" src="/data/g0039_600.jpg" class="cubeSpread" alt="イギリス国旗" /></a>
+                <div class="label_text">
+                  <p>イギリス国旗</p>
+                </div>
+              </li>              <li><a href="https://g-sozai.com/sozai/32.html"><img style="width:100%;" src="/data/g0032_600.jpg" class="showBarsRandom" alt="もみじ001" /></a>
+                <div class="label_text">
+                  <p>もみじ001</p>
+                </div>
+              </li>            </ul>
+</div>
+</div>
+<h2>画像素材</h2>
+<div class="itemlist2">
+<div class="img"><a href="/sozai/868.html"><img src="/data/g958_200.jpg" alt="雪の結晶（背景色-グレー）" title="画像素材：雪の結晶（背景色-グレー）" /></a></div>
+<h3><a href="/sozai/868.html">雪の結晶（背景色-グレー）</a></h3>
+            <a href="/黒色/0/">黒色</a>
+</div>
+
+
+<div class="itemlist2">
+<div class="img"><a href="/sozai/867.html"><img src="/data/g957_200.jpg" alt="雪の結晶（背景色-緑）" title="画像素材：雪の結晶（背景色-緑）" /></a></div>
+<h3><a href="/sozai/867.html">雪の結晶（背景色-緑）</a></h3>
+            <a href="/緑色/0/">緑色</a>
+</div>
+
+
+<div class="itemlist2">
+<div class="img"><a href="/sozai/866.html"><img src="/data/g956_200.jpg" alt="キーボード" title="画像素材：キーボード" /></a></div>
+<h3><a href="/sozai/866.html">キーボード</a></h3>
+            <a href="/黒色/0/">黒色</a>
+</div>
+
+
+<div class="itemlist2">
+<div class="img"><a href="/sozai/865.html"><img src="/data/g955_200.jpg" alt="3D白地球柄" title="画像素材：3D白地球柄" /></a></div>
+<h3><a href="/sozai/865.html">3D白地球柄</a></h3>
+            <a href="/3D/0/">3D</a>
+</div>
+
+
+<div class="itemlist2">
+<div class="img"><a href="/sozai/864.html"><img src="/data/g954_200.jpg" alt="3D地球柄" title="画像素材：3D地球柄" /></a></div>
+<h3><a href="/sozai/864.html">3D地球柄</a></h3>
+            <a href="/3D/0/">3D</a>
+</div>
+
+
+<div class="itemlist2">
+<div class="img"><a href="/sozai/863.html"><img src="/data/g953_200.jpg" alt="3Dゼブラ柄" title="画像素材：3Dゼブラ柄" /></a></div>
+<h3><a href="/sozai/863.html">3Dゼブラ柄</a></h3>
+            <a href="/3D/0/">3D</a>
+</div>
+
+
+<h2>四字熟語画像</h2>
+<div class="itemlist2">
+<div class="img"><a href="https://jukugo.g-sozai.com/5724.html"><img style="width:80%;" src="https://jukugo.g-sozai.com/data/5724.jpg" alt=""></a></div>
+<h3><a href="https://jukugo.g-sozai.com/5724.html">問柳尋花</a></h3>
+
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://jukugo.g-sozai.com/5639.html"><img style="width:80%;" src="https://jukugo.g-sozai.com/data/5639.jpg" alt=""></a></div>
+<h3><a href="https://jukugo.g-sozai.com/5639.html">無間奈落</a></h3>
+
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://jukugo.g-sozai.com/4056.html"><img style="width:80%;" src="https://jukugo.g-sozai.com/data/4056.jpg" alt=""></a></div>
+<h3><a href="https://jukugo.g-sozai.com/4056.html">兆載永劫</a></h3>
+
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://jukugo.g-sozai.com/3731.html"><img style="width:80%;" src="https://jukugo.g-sozai.com/data/3731.jpg" alt=""></a></div>
+<h3><a href="https://jukugo.g-sozai.com/3731.html">蒼蠅驥尾</a></h3>
+
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://jukugo.g-sozai.com/3514.html"><img style="width:80%;" src="https://jukugo.g-sozai.com/data/3514.jpg" alt=""></a></div>
+<h3><a href="https://jukugo.g-sozai.com/3514.html">絶観忘守</a></h3>
+
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://jukugo.g-sozai.com/903.html"><img style="width:80%;" src="https://jukugo.g-sozai.com/data/903.jpg" alt=""></a></div>
+<h3><a href="https://jukugo.g-sozai.com/903.html">肝胆相照</a></h3>
+
+</div>
+
+<h2>顔文字画像</h2>
+<div class="itemlist2">
+<div class="img"><a href="https://kaomoji.g-sozai.com/18901.html"><img style="width:80%;" src="https://kaomoji.g-sozai.com/data/18901.jpg" alt="ライン 顔文字"></a></div>
+<h3><a href="https://kaomoji.g-sozai.com/18901.html">（●^Д^））~・。・☆・。・~（（＾Д^●）☆（●^Д^））~・。・☆・。・~（（＾Д^●）
+</a></h3>
+<a href="https://kaomoji.g-sozai.com/ライン/0/">ライン</a>
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://kaomoji.g-sozai.com/17558.html"><img style="width:80%;" src="https://kaomoji.g-sozai.com/data/17558.jpg" alt="投げる 顔文字"></a></div>
+<h3><a href="https://kaomoji.g-sozai.com/17558.html">(ノ・ω・)ノ：・．：：・ ○┼< ┏┛焼却炉┗┓
+</a></h3>
+<a href="https://kaomoji.g-sozai.com/投げる/0/">投げる</a>
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://kaomoji.g-sozai.com/12630.html"><img style="width:80%;" src="https://kaomoji.g-sozai.com/data/12630.jpg" alt="おはよう 顔文字"></a></div>
+<h3><a href="https://kaomoji.g-sozai.com/12630.html">+｡:.ﾟ【ｵﾊ】ヽ(´∀｀*人ｏ≧ω≦)ﾉ【ﾖｳ】ﾟ.:｡+ﾟ
+</a></h3>
+<a href="https://kaomoji.g-sozai.com/おはよう/0/">おはよう</a>
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://kaomoji.g-sozai.com/10681.html"><img style="width:80%;" src="https://kaomoji.g-sozai.com/data/10681.jpg" alt="泣く 顔文字"></a></div>
+<h3><a href="https://kaomoji.g-sozai.com/10681.html">(*ﾉｪ･｡)
+</a></h3>
+<a href="https://kaomoji.g-sozai.com/泣く/0/">泣く</a>
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://kaomoji.g-sozai.com/5244.html"><img style="width:80%;" src="https://kaomoji.g-sozai.com/data/5244.jpg" alt="返事-疑問？ 顔文字"></a></div>
+<h3><a href="https://kaomoji.g-sozai.com/5244.html">【ﾎ㍗?】ヽ(*｀ωﾟ∞)y━ﾟﾟﾟ
+</a></h3>
+<a href="https://kaomoji.g-sozai.com/返事-疑問？/0/">返事-疑問？</a>
+</div>
+
+<div class="itemlist2">
+<div class="img"><a href="https://kaomoji.g-sozai.com/5229.html"><img style="width:80%;" src="https://kaomoji.g-sozai.com/data/5229.jpg" alt="返事-疑問？ 顔文字"></a></div>
+<h3><a href="https://kaomoji.g-sozai.com/5229.html">ヽ(~～~　)ノ ﾊﾃ？
+</a></h3>
+<a href="https://kaomoji.g-sozai.com/返事-疑問？/0/">返事-疑問？</a>
+</div>
+
+
+<!-- <h2>画像素材カテゴリー</h2>
+<div class="category">
+<img src="/data/g0058_200.jpg" alt="雪山" border="0" width="90" />
+<h3>自然・風景</h3>
+<div class="category2">
+<ul>
+<li><a href="/海/0/">海</a></li>
+<li><a href="/山/0/">山</a></li>
+<li><a href="/林/0/">森林・草原</a></li>
+<li><a href="/湖/0/">湖・泉</a></li>
+<li><a href="/空/0/">空・雲</a></li>
+</ul>
+</div>
+</div>
+<div class="category">
+<img src="/data/g0000_200.jpg" alt="春の桜" border="0" width="90" />
+<h3>季節</h3>
+<div class="category2">
+<ul>
+<li><a href="/春/0/">春</a></li>
+<li><a href="/夏/0/">夏</a></li>
+<li><a href="/秋/0/">秋</a></li>
+<li><a href="/冬/0/">冬</a></li>
+</ul>
+</div>
+</div>
+<div class="category">
+<img src="/data/g0309_200.jpg" alt="ガーベラ" border="0" width="90" />
+<h3>花・植物</h3>
+<div class="category2">
+<ul>
+<li><a href="/花/0/">花</a></li>
+<li><a href="/葉/0/">葉</a></li>
+<li><a href="/実/0/">実</a></li>
+</ul>
+</div>
+</div>
+ -->
+<br style="clear:both;" />
+
+<dl class="new">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- G素材レスポンシブ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5183662823086298"
+     data-ad-slot="5727168406"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+ </dl>
+<br style="clear:both;" />
+<h3>画像の更新情報</h3>
+<dl class="new">          <dt>2019.12.07(Sat)</dt>
+          <dd><a href="/sozai/868.html">雪の結晶（背景色-グレー）　追加</a></dd>
+          <dt>2019.12.07(Sat)</dt>
+          <dd><a href="/sozai/867.html">雪の結晶（背景色-緑）　追加</a></dd>
+          <dt>2019.12.07(Sat)</dt>
+          <dd><a href="/sozai/866.html">キーボード　追加</a></dd>
+          <dt>2016.06.25(Sat)</dt>
+          <dd><a href="/sozai/865.html">3D白地球柄　追加</a></dd>
+          <dt>2016.06.25(Sat)</dt>
+          <dd><a href="/sozai/864.html">3D地球柄　追加</a></dd>
+          <dt>2016.06.25(Sat)</dt>
+          <dd><a href="/sozai/863.html">3Dゼブラ柄　追加</a></dd>
+        </dl>
+<br style="clear:both;" />
+        <!--/newitem--> 
+      </div>
+      <!--/main-->
+      <div id="sub">
+<!-- Rakuten Widget FROM HERE --><script type="text/javascript">rakuten_design="slide";rakuten_affiliateId="0cba9f1b.0f56dfd9.0cba9f1c.a7706075";rakuten_items="ctsmatch";rakuten_genreId=0;rakuten_size="300x250";rakuten_target="_blank";rakuten_theme="gray";rakuten_border="off";rakuten_auto_mode="off";rakuten_genre_title="off";rakuten_recommend="off";</script><script type="text/javascript" src="https://xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js"></script><!-- Rakuten Widget TO HERE -->
+<h3>人気画像素材</h3>
+<div id="menu4">
+<nav4>
+<ul>
+<li>1位 <a href='/sozai/772.html'><img src='/data/g762_200.jpg' height='70' alt='ゴッホ「夜のカフェテラス」' /><br />ゴッホ「夜のカフェテラス」</a></li>
+<li>2位 <a href='/sozai/230.html'><img src='/data/g0230_200.jpg' height='70' alt='ゼブラ柄のシルク' /><br />ゼブラ柄のシルク</a></li>
+<li>3位 <a href='/sozai/196.html'><img src='/data/g0196_200.jpg' height='70' alt='白と黒のチェック柄' /><br />白と黒のチェック柄</a></li>
+<li>4位 <a href='/sozai/295.html'><img src='/data/g0295_200.jpg' height='70' alt='レオナルド・ダ・ヴィンチ　「モナリザ（Mona Lisa）」' /><br />レオナルド・ダ・ヴィンチ　「モナリザ（Mona Lisa）」</a></li>
+<li>5位 <a href='/sozai/162.html'><img src='/data/g0162_200.jpg' height='70' alt='グラデーション12' /><br />グラデーション12</a></li>
+<li>6位 <a href='/sozai/164.html'><img src='/data/g0164_200.jpg' height='70' alt='グラデーション14' /><br />グラデーション14</a></li>
+<li>7位 <a href='/sozai/769.html'><img src='/data/g759_200.jpg' height='70' alt='フェルメール「真珠の耳飾りの少女」壁紙' /><br />フェルメール「真珠の耳飾りの少女」壁紙</a></li>
+<li>8位 <a href='/sozai/254.html'><img src='/data/g0254_200.jpg' height='70' alt='トマト02' /><br />トマト02</a></li>
+<li>9位 <a href='/sozai/770.html'><img src='/data/g760_200.jpg' height='70' alt='ゴッホ「星月夜」' /><br />ゴッホ「星月夜」</a></li>
+<li>10位 <a href='/sozai/192.html'><img src='/data/g0192_200.jpg' height='70' alt='ヒョウ柄＿白色' /><br />ヒョウ柄＿白色</a></li>
+</ul>
+</nav4>
+</div>
+
+
+<hr/>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- G素材レスポンシブ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5183662823086298"
+     data-ad-slot="5727168406"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
+      <!--/sub--> 
+    </div>
+    <!--/wrap-->
+    
+    <div id="side">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- G素材　リンク広告2019 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5183662823086298"
+     data-ad-slot="3509983911"
+     data-ad-format="link"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br style="clear:both;" />
+<h2>画像メニュー</h2>
+<ul class="submenu">          <h3>植物の画像</h3>
+		  <ul>
+          <li><a href="/花/0/" title="花">花</a></li>
+          <li><a href="/木/0/" title="木">木</a></li>
+		  </ul>
+          <h3>自然の画像</h3>
+		  <ul>
+          <li><a href="/山/0/" title="山">山</a></li>
+          <li><a href="/海/0/" title="海">海</a></li>
+          <li><a href="/空/0/" title="空">空</a></li>
+          <li><a href="/雲/0/" title="雲">雲</a></li>
+          <li><a href="/川/0/" title="川">川</a></li>
+   		  </ul>
+       <h3>質感の画像</h3>
+		  <ul>
+          <li><a href="/布/0/" title="布">布</a></li>
+          <li><a href="/液体/0/" title="液体">液体</a></li>
+		  </ul>
+          <h3>季節の画像</h3>
+		  <ul>
+          <li><a href="/春/0/" title="春">春</a></li>
+          <li><a href="/夏/0/" title="夏">夏</a></li>
+          <li><a href="/秋/0/" title="秋">秋</a></li>
+          <li><a href="/冬/0/" title="冬">冬</a></li>
+		  </ul>
+          <h3>色の画像</h3>
+		  <ul>
+          <li><a href="/紫/0/" title="紫色">紫色</a></li>
+          <li><a href="/赤/0/" title="赤色">赤色</a></li>
+          <li><a href="/青/0/" title="青色">青色</a></li>
+          <li><a href="/オレンジ色/0/" title="オレンジ色">オレンジ色</a></li>
+          <li><a href="/白色/0/" title="白色">白色</a></li>
+          <li><a href="/デスクトップ壁紙/0/" title="デスクトップ壁紙">デスクトップ壁紙</a></li>
+          <li><a href="/国旗/0/" title="国旗">国旗</a></li>
+          <li><a href="/16:9/0/" title="16:9">16:9</a></li>
+          <li><a href="/3D/0/" title="3D">3D</a></li>
+          <li><a href="/テクスチャ/0/" title="テクスチャ">テクスチャ</a></li>
+          <li><a href="/グラデーション/0/" title="グラデーション">グラデーション</a></li>
+		  </ul>
+          <h3>絵画の画像</h3>
+		  <ul>
+          <li><a href="/絵画/0/" title="絵画">絵画</a></li>
+          <li><a href="/西洋絵画/0/" title="西洋絵画">西洋絵画</a></li>
+          <li><a href="/ルネサンス/0/" title="ルネサンス">ルネサンス</a></li>
+          <li><a href="/バロック美術/0/" title="バロック美術">バロック美術</a></li>
+          <li><a href="/印象派/0/" title="印象派">印象派</a></li>
+ 		  </ul>
+          <h3>画家別の画像</h3>
+		  <ul>
+         <li><a href="/クロード・モネ/0/" title="クロード・モネ">クロード・モネ</a></li>
+          <li><a href="/ピエール＝オーギュスト・ルノワール/0/" title="ピエール＝オーギュスト・ルノワール">オーギュスト・ルノワール</a></li>
+          <li><a href="/ディエゴ・ベラスケス/0/" title="ディエゴ・ベラスケス">ディエゴ・ベラスケス</a></li>
+		  </ul>
+</ul>
+    </div>
+    <!--/side-->
+    <div id="footer">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-5183662823086298"
+     data-ad-slot="2727164803"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+Copyright(C)2020 <a href="https://g-sozai.com/">g-sozai All Rights Reserved.</a><br />
+<p><a href="https://g-sozai.com/us/">Site of images and Free Images|g-sozai.com</a></p>
+    </div>
+    <!--/footer--> 
+    
+  </div>
+  <!--/contents--> 
+  
+</div>
+<!--/container-->
+
+</body>
+</html>
