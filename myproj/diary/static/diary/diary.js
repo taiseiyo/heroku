@@ -10,9 +10,9 @@ function scrollToDown() {
 let num = 0;
 function slide_picture() {
   let pic = new Array(
-    "../../../static/star.jpg",
-    "../../../static/star2.jpg",
-    "../../../static/castle.jpg",
+    "../../../static/diary/star.jpg",
+    "../../../static/diary/star2.jpg",
+    "../../../static/diary/castle.jpg",
   );
 
   if (num == 2) {

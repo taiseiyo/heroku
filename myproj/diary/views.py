@@ -33,7 +33,7 @@ class DiaryView(TemplateView):
             return HttpResponse(template.render(None, request))
 
         elif(request.POST["name"] == "bingo" and request.POST["password"] == "welcome"):
-            template = loader.get_template('diary/taisei/bingo.html')
+            template = loader.get_template('bingo/bingo.html')
             return HttpResponse(template.render(None, request))
 
         return render(request, "diary/taisei/form.html", self.params)
