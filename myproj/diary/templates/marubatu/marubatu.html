@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Marubatsu game!!</title>
+    <link href="../../static/marubatu/marubatu.css" rel="stylesheet"/>
+  </head>
+  
+  
+  <body>
+    <div class="fashionable-box4">
+      
+      <div>
+	<h1 class="explain_word">〇×ゲーム 枠の中をクリックしたら始まるよ(^^)</h1>
+      </div>
+
+      
+      <div class="frame">
+	<script type="text/javascript" src="../../static/marubatu/marubatu.js"></script>
+	
+	<table border="3" class="content_frame">
+	  <tr>
+	    <td id="id0" onClick="show_maru_batu(id)">△</td>
+	    <td id="id1" onClick="show_maru_batu(id)">△</td>
+	    <td id="id2" onClick="show_maru_batu(id)">△</td>
+	  </tr>
+	  
+	  <tr>
+	    <td id="id3" onClick="show_maru_batu(id)">△</td>
+	    <td id="id4" onClick="show_maru_batu(id)">△</td>
+	    <td id="id5" onClick="show_maru_batu(id)">△</td>
+	  </tr>
+	  
+	  <tr>
+	    <td id="id6" onClick="show_maru_batu(id)">△</td>
+	    <td id="id7" onClick="show_maru_batu(id)">△</td>
+	    <td id="id8" onClick="show_maru_batu(id)">△</td>
+	  </tr>
+	</table>
+	
+      </div>
+
+      <div class="back_buttons">
+	<button class="button_decoration1" id="back_first" onClick="playing_first()">始めから遊ぶ</button>
+	<button class="button_decoration2" id="teaching_order">次 → 先攻 〇</button>
+      </div>
+      
+    </div>
+    
+  </body>
+  
+</html>

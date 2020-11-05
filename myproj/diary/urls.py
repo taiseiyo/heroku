@@ -7,6 +7,7 @@ from . import views
 
 urlpatterns = [
     path("", DiaryView.as_view(), name="form"),
+
     path("taiseiyo/", views.taiseiyo, name="taiseiyo"),  # 追記
     path("create/", RegisterView.as_view(), name="create"),
     path("edit/<int:num>", views.edit, name="edit"),
@@ -14,7 +15,8 @@ urlpatterns = [
     path("restrict/<int:num>", views.restrict, name="restrict"),
     path("index2/", views.index2, name="index2"),
     path("3d/", views.three_d, name="3d"),
-    path("affri", DiaryView.as_view(), name="affri"),
-    path("bingo/", views.three_d, name="bingo"),
+    path("bingo/", DiaryView.as_view(), name="bingo"),
+    path("marubatu/", DiaryView.as_view(), name="marubatu"),
+
     # path("edit/<str:name>", views.edit, name="edit"),
 ]
